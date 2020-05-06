@@ -2,7 +2,7 @@ modLoader="javafml"
 loaderVersion="[28,)"
 issueTrackerURL="https://github.com/Artemka091102/Navigation/issues"
 [[mods]]
-modId="Navigation"
+modId="navigation"
 version="${file.jarVersion}"
 displayName="Navigation"
 updateJSONURL="https://raw.githubusercontent.com/Artemka091102/Navigation/master/src/main/resources/META-INF/update.json"
