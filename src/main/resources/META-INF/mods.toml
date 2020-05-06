@@ -5,11 +5,11 @@ issueTrackerURL="https://github.com/Artemka091102/Navigation/issues"
 modId="navigation"
 version="${file.jarVersion}"
 displayName="Navigation"
-updateJSONURL="https://raw.githubusercontent.com/Artemka091102/Navigation/master/src/main/resources/META-INF/update.json"
+# updateJSONURL="https://raw.githubusercontent.com/Artemka091102/Navigation/master/src/main/resources/META-INF/update.json"
 displayURL="https://www.curseforge.com/minecraft/mc-mods/Navigation"
 logoFile="Navigation.png"
-credits='''
-'''
+# credits='''
+# '''
 authors='''
 
 Artemka091102

@@ -21,17 +21,17 @@ public class Main {
     public static class Registry{
 
         @SubscribeEvent
-        public static void registerItems(final RegistryEvent.Register<Item> event) {
+        public static void registerBlocks(final RegistryEvent.Register<Block> event) {
             event.getRegistry().registerAll(
-                ItemList.magnesite = new Item(new Item.Properties().group(ItemGroup.MATERIALS)).setRegistryName(new ResourceLocation(MODID, "magnesite")),
-                ItemList.magnesite_ore = new BlockItem(BlockList.magnesite_ore, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(new ResourceLocation(MODID, "magnesite_ore"))
+                BlockList.magnesite_ore = new OreBlock(Block.Properties.create(Material.ROCK).hardnessAndResistance(3.0F, 3.0F)).setRegistryName(new ResourceLocation(MODID, "magnesite_ore"))
             );
         }
 
         @SubscribeEvent
-        public static void registerBlocks(final RegistryEvent.Register<Block> event) {
+        public static void registerItems(final RegistryEvent.Register<Item> event) {
             event.getRegistry().registerAll(
-                BlockList.magnesite_ore = new OreBlock(Block.Properties.create(Material.ROCK).hardnessAndResistance(3.0F, 3.0F)).setRegistryName(new ResourceLocation(MODID, "magnesite_ore"))
+                ItemList.magnesite = new Item(new Item.Properties().group(ItemGroup.MATERIALS)).setRegistryName(new ResourceLocation(MODID, "magnesite")),
+                ItemList.magnesite_ore = new BlockItem(BlockList.magnesite_ore, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(new ResourceLocation(MODID, "magnesite_ore"))
             );
         }
     }
