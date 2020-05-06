@@ -10,6 +10,6 @@ import net.minecraft.world.gen.placement.Placement;
 
 public class YourBiomeFeatures {
     public static void addOres(Biome biomeIn) {
-        biomeIn.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, Biome.createDecoratedFeature(Feature.ORE, new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, BlockList.magnesite_ore.getDefaultState(), 7), Placement.COUNT_RANGE, new CountRangeConfig(100, 0, 0, 64)));
+        biomeIn.addFeature(GenerationStage.Decoration.UNDERGROUND_ORES, Biome.createDecoratedFeature(Feature.ORE, new OreFeatureConfig(OreFeatureConfig.FillerBlockType.NATURAL_STONE, BlockList.magnetite_ore.getDefaultState(), 7), Placement.COUNT_RANGE, new CountRangeConfig(100, 0, 0, 64)));
     }
 }
