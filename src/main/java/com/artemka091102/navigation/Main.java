@@ -36,3 +36,5 @@ public class Main {
         }
     }
 }
+
+//assets/minecraft/textures/map/map_icons.png
