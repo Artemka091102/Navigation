@@ -28,15 +28,15 @@ public class Main {
         @SubscribeEvent
         public static void registerBlocks(final RegistryEvent.Register<Block> event) {
             event.getRegistry().registerAll(
-                BlockList.magnetite_ore = new OreBlock(Block.Properties.create(Material.ROCK).hardnessAndResistance(3.0F, 3.0F)).setRegistryName(new ResourceLocation(MODID, "magnesite_ore"))
+                BlockList.magnetite_ore = new OreBlock(Block.Properties.create(Material.ROCK).hardnessAndResistance(3.0F, 3.0F)).setRegistryName(new ResourceLocation(MODID, "magnetite_ore"))
             );
         }
 
         @SubscribeEvent
         public static void registerItems(final RegistryEvent.Register<Item> event) {
             event.getRegistry().registerAll(
-                ItemList.magnetite = new Item(new Item.Properties().group(ItemGroup.MATERIALS)).setRegistryName(new ResourceLocation(MODID, "magnesite")),
-                ItemList.magnetite_ore = new BlockItem(BlockList.magnetite_ore, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(new ResourceLocation(MODID, "magnesite_ore"))
+                ItemList.magnetite = new Item(new Item.Properties().group(ItemGroup.MATERIALS)).setRegistryName(new ResourceLocation(MODID, "magnetite")),
+                ItemList.magnetite_ore = new BlockItem(BlockList.magnetite_ore, new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)).setRegistryName(new ResourceLocation(MODID, "magnetite_ore"))
             );
         }
     }

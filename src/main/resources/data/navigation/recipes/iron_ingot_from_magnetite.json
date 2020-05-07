@@ -1,19 +1,17 @@
 {
   "type": "minecraft:crafting_shaped",
+  "group": "iron_ingot",
   "pattern": [
-    " # ",
-    "#X#",
-    " # "
+    "###",
+    "###",
+    "###"
   ],
   "key": {
     "#": {
-      "item": "minecraft:iron_ingot"
-    },
-    "X": {
       "item": "navigation:magnetite"
     }
   },
   "result": {
-    "item": "minecraft:compass"
+    "item": "minecraft:iron_ingot"
   }
 }
