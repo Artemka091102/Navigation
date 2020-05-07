@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "navigation:item/magnesite"
+    "layer0": "navigation:item/magnetite"
   }
 }

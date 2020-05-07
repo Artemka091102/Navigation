@@ -24,7 +24,7 @@
                   }
                 }
               ],
-              "name": "navigation:magnesite_ore"
+              "name": "navigation:magnetite_ore"
             },
             {
               "type": "minecraft:item",
@@ -49,7 +49,7 @@
                   "function": "minecraft:explosion_decay"
                 }
               ],
-              "name": "navigation:magnesite"
+              "name": "navigation:magnetite"
             }
           ]
         }
