@@ -12,10 +12,15 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
 @Mod(Main.MODID)
 public class Main {
     public static final String MODID = "navigation";
+
+    public Main() {
+        FMLJavaModLoadingContext.get().getModEventBus().addListener(EventsHandler::onCommonSetup);
+    }
 
     @Mod.EventBusSubscriber(bus=Mod.EventBusSubscriber.Bus.MOD)
     public static class Registry{
