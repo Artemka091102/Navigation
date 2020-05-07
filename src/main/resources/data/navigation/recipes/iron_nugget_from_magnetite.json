@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "navigation:magnetite"
+  },
+  "result": "minecraft:iron_nugget",
+  "cookingtime": 100
+}
